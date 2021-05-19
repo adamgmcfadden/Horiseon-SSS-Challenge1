@@ -1,11 +1,33 @@
-/*Global Styling*/
+/*----GLOBAL/GENERIC STYLING STARTS----*/
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-/*----Header Styling Starts----*/
+/*Landing Page background color*/
+body {
+  background-color: #d9dcd6;
+}
+
+/*Global paragraph styling*/
+p {
+  font-size: 16px;
+}
+
+/*Generic Styling to float img left / right*/
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+/*----GLOBAL/GENERIC STYLING ENDS----*/
+
+/*----HEADER STYLING STARTS----*/
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -34,6 +56,7 @@
   font-size: 20px;
 }
 
+/*Anchor styling*/
 a {
   color: #ffffff;
   text-decoration: none;
@@ -49,18 +72,9 @@ a {
   display: inline-block;
   margin-left: 25px;
 }
-/*----Header Styling Ends----*/
+/*----HEADER STYLING ENDS----*/
 
-/*Page background color*/
-body {
-  background-color: #d9dcd6;
-}
-
-p {
-  font-size: 16px;
-}
-
-/*----Hero/Jumbotron Styling----*/
+/*----HERO/JUMBOTRON STYLING START/END----*/
 .hero {
   height: 800px;
   width: 100%;
@@ -70,22 +84,36 @@ p {
   background-position: center;
 }
 
-.float-left {
-  float: left;
-  margin-right: 25px;
-}
-
-.float-right {
-  float: right;
-  margin-left: 25px;
-}
-
+/*----MAIN PAGE CONTENT STYLING - SEO - ORM - SMM - STARTS----*/
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
+/*Content section styling and positioning*/
+.content-article {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+/*Content section Img styling*/
+.content-article img {
+  max-height: 200px;
+}
+
+/*Content Section Header Styling*/
+.content-article h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+/*----MAIN PAGE CONTENT STYLING - SEO - ORM - SMM - ENDS----*/
+
+/*----BENEFITS SECTION STYLING - STARTS----*/
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -97,108 +125,28 @@ p {
   background-color: #2589bd;
 }
 
-.benefit-lead {
+/*Benefits section text styling*/
+.benefit-article {
   margin-bottom: 32px;
   color: #ffffff;
+  text-align: center;
 }
 
-.benefit-brand {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-cost {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-.benefit-lead h3 {
+/*Benefits section Header text Styling*/
+.benefit-article h3 {
   margin-bottom: 10px;
   text-align: center;
 }
 
-.benefit-brand h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-cost h3 {
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.benefit-lead img {
+/*Benefits section image styling*/
+.benefit-article img {
   display: block;
   margin: 10px auto;
   max-width: 150px;
 }
+/*----BENEFITS STYLING SECTION ENDS----*/
 
-.benefit-brand img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.benefit-cost img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-.search-engine-optimization {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.online-reputation-management {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.social-media-marketing {
-  margin-bottom: 20px;
-  padding: 50px;
-  height: 300px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #0072bb;
-  color: #ffffff;
-}
-
-.search-engine-optimization img {
-  max-height: 200px;
-}
-
-.online-reputation-management img {
-  max-height: 200px;
-}
-
-.social-media-marketing img {
-  max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.online-reputation-management h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
-.social-media-marketing h2 {
-  margin-bottom: 20px;
-  font-size: 36px;
-}
-
+/*----FOOTER STYLING STARTS----*/
 .footer {
   padding: 30px;
   clear: both;
@@ -207,6 +155,8 @@ p {
   text-align: center;
 }
 
+/*Made with ♥ by Horeseon*/
 .footer h2 {
   font-size: 20px;
 }
+/*----FOOTER STYLING ENDS----*/
