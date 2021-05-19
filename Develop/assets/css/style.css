@@ -1,4 +1,6 @@
-/*----GLOBAL/GENERIC STYLING STARTS----*/
+/*---------------------------
+GLOBAL/GENERIC STYLING STARTS
+-----------------------------*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -25,9 +27,13 @@ p {
   float: right;
   margin-left: 25px;
 }
-/*----GLOBAL/GENERIC STYLING ENDS----*/
+/*---------------------------
+GLOBAL/GENERIC STYLING ENDS
+---------------------------*/
 
-/*----HEADER STYLING STARTS----*/
+/*-------------------
+HEADER STYLING STARTS
+---------------------*/
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -72,9 +78,13 @@ a {
   display: inline-block;
   margin-left: 25px;
 }
-/*----HEADER STYLING ENDS----*/
+/*-----------------
+HEADER STYLING ENDS
+-----------------*/
 
-/*----HERO/JUMBOTRON STYLING START/END----*/
+/*------------------------------
+HERO/JUMBOTRON STYLING START/END
+------------------------------*/
 .hero {
   height: 800px;
   width: 100%;
@@ -84,7 +94,9 @@ a {
   background-position: center;
 }
 
-/*----MAIN PAGE CONTENT STYLING - SEO - ORM - SMM - STARTS----*/
+/*--------------------------------------------------
+MAIN PAGE CONTENT STYLING - SEO - ORM - SMM - STARTS
+--------------------------------------------------*/
 .content {
   width: 75%;
   display: inline-block;
@@ -111,12 +123,16 @@ a {
   margin-bottom: 20px;
   font-size: 36px;
 }
-/*----MAIN PAGE CONTENT STYLING - SEO - ORM - SMM - ENDS----*/
+/*------------------------------------------------
+MAIN PAGE CONTENT STYLING - SEO - ORM - SMM - ENDS
+------------------------------------------------*/
 
-/*----BENEFITS SECTION STYLING - STARTS----*/
+/*-------------------------------
+BENEFITS SECTION STYLING - STARTS
+-------------------------------*/
 .benefits {
   margin-right: 20px;
-  padding: 20px;
+  padding: 24px;
   clear: both;
   float: right;
   width: 20%;
@@ -144,9 +160,13 @@ a {
   margin: 10px auto;
   max-width: 150px;
 }
-/*----BENEFITS STYLING SECTION ENDS----*/
+/*---------------------------
+BENEFITS STYLING SECTION ENDS
+---------------------------*/
 
-/*----FOOTER STYLING STARTS----*/
+/*-------------------
+FOOTER STYLING STARTS
+-------------------*/
 .footer {
   padding: 30px;
   clear: both;
@@ -159,4 +179,6 @@ a {
 .footer h2 {
   font-size: 20px;
 }
-/*----FOOTER STYLING ENDS----*/
+/*-----------------
+FOOTER STYLING ENDS
+-----------------*/
