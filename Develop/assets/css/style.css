@@ -1,13 +1,11 @@
+/*Global Styling*/
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
 }
 
-body {
-  background-color: #d9dcd6;
-}
-
+/*----Header Styling Starts----*/
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -16,15 +14,18 @@ body {
   color: #ffffff;
 }
 
+/*Horiseon*/
 .header h1 {
   display: inline-block;
   font-size: 48px;
 }
 
+/*___"seo"__*/
 .header h1 .seo {
   color: #d9dcd6;
 }
 
+/*All header navigation buttons Styling*/
 .header nav {
   padding-top: 15px;
   margin-right: 20px;
@@ -33,24 +34,33 @@ body {
   font-size: 20px;
 }
 
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/*Unordered list - remove markers*/
 .header nav ul {
   list-style-type: none;
 }
 
+/*Nav button positioning*/
 .header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
+/*----Header Styling Ends----*/
 
-a {
-  color: #ffffff;
-  text-decoration: none;
+/*Page background color*/
+body {
+  background-color: #d9dcd6;
 }
 
 p {
   font-size: 16px;
 }
 
+/*----Hero/Jumbotron Styling----*/
 .hero {
   height: 800px;
   width: 100%;
