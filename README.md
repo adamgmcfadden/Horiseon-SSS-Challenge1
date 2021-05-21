@@ -1,22 +1,30 @@
 # Horiseon Social Solution Services, Inc.
 
-## Code Refactor Starter Code 
-* Project - Coding Challenge #1 - Horiseon Website
+## Code Refactor Starter Code
 
-## Purpose 
-* A website that offers social solution services to businesses with an online presence
+- Project - Coding Challenge #1 - Horiseon Website
 
-## Built with 
-* HTML
-* CSS
+## Purpose
 
-## Website 
+- A website that offers social solution services to businesses with an online presence
+
+## Built with
+
+- HTML
+- CSS
+
+## Screenshot
+
+![screenshot](/assets/images/screenshot.png)
+
+## Website
+
 adamgmcfadden.github.io/Horiseon-SSS-Challenge1
 
 ## Contribution
-* Starter code provided by Carleton University
-* Modified to meet requirements by Adam Girard-McFadden
 
+- Starter code provided by Carleton University
+- Modified to meet requirements by Adam Girard-McFadden
 
 ## Assignment Description:
 
