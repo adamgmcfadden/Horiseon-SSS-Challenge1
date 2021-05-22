@@ -15,7 +15,7 @@
 
 ## Screenshot
 
-![screenshot](./Develop/assets/images/screenshot.png)
+![screenshot png](https://user-images.githubusercontent.com/83710803/119241909-d7964400-bb27-11eb-95f6-08841e5cc777.png)
 
 ## Website
 
